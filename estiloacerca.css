@@ -1,11 +1,17 @@
+body{
+    background-color: rgb(166, 227, 245);
+}
+img#img1 {
+    margin-top: 55px;
+}
+
 img {
-    border-radius: 30px;
-    padding-top: 10px;
+    border-radius: 60px;
   }
 
-p{
-    background: #f7f5f5;
+p#yolo{
+    background: #c2e0e6;
     font-weight: bold; 
     padding: 15px; 
-    border-left: 5px solid #ff0080;
+    border-left: 5px solid #085b66;
 }
