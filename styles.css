@@ -1,3 +1,8 @@
+body{
+  background: rgb(132, 201, 223);
+  font-family: Helvetica;
+  font: bold;
+}
 .footer {
     color: #fff;
     background: url("img/footer-bg.jpg") top center no-repeat;

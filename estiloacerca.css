@@ -1,15 +1,17 @@
 body{
-    background-color: rgb(219, 239, 245);
+    background-color: rgb(132, 201, 223);
 }
 img#img1 {
     margin-top: 55px;
 }
 
-
+section#about1{
+    margin-top: 130px;
+}
 
 p#yolo{
     font-size: 20px;
-    background: #c2e0e6;
+    background: rgb(132, 201, 223);;
     font-weight: bold; 
     padding: 15px; 
     border-left: 5px solid #085b66;
