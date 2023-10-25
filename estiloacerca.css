@@ -18,3 +18,13 @@ p#yolo{
 h2{
     font-size: 80px;
 }
+
+@media (max-width: 767px) {
+    #about p {
+        font-size: 14px;
+    }
+
+    #titulo {
+        font-size: 28px;
+    }
+}
