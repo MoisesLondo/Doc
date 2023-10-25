@@ -1,38 +1,36 @@
-.contForm {
-    width: 400px;
-    height: 200px;
-    margin: 0 auto;
-   }
-   
-   .formulario {
-    background-color: #ffffff;
+.contForm{
+    padding: 80px;
+}
+.formulario { 
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto; 
+    box-shadow: 2px 2px 1px #888888;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
-   }
-   
+    width: 300px;
+    background-color: #f1f1f1;
+}
+
+.laimagen {
+    width: 100%; 
+    max-width: 400px;
+    margin: 0 auto; 
+}
    .texto {
     text-align: center;
     margin-bottom: 20px;
    }
    .contForm {
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: center;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-   
+    align-items: center;
+    box-shadow: 2px 2px 1px #888888;
+   }
+
    header{
     box-shadow: 1px 1px 1px rgba(156, 156, 156, 0.36);
    }
+
    .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    padding: 20px;
     text-align: center;
-}
+   }
