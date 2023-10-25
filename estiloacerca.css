@@ -2,16 +2,20 @@ body{
     background-color: rgb(132, 201, 223);
 }
 img#img1 {
-    margin-top: 55px;
+    margin-top: 5px;
 }
 
 section#about1{
     margin-top: 130px;
 }
 
+section#about2{
+    background-color: rgb(132, 201, 223);
+}
+
 p#yolo{
     font-size: 20px;
-    background: rgb(132, 201, 223);;
+    background: rgb(189, 219, 228);
     font-weight: bold; 
     padding: 15px; 
     border-left: 5px solid #085b66;
