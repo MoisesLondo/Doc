@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(166, 227, 245);
+    background-color: rgb(219, 239, 245);
 }
 img#img1 {
     margin-top: 55px;
@@ -10,8 +10,13 @@ img {
   }
 
 p#yolo{
+    font-size: 20px;
     background: #c2e0e6;
     font-weight: bold; 
     padding: 15px; 
     border-left: 5px solid #085b66;
+}
+
+h2{
+    font-size: 80px;
 }

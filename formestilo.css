@@ -1,16 +1,47 @@
+body{
+    background-color: rgb(219, 239, 245);
+}
+
 form{
     padding-top: 30px;
     padding-bottom: 50px;
 } 
-.formulario{
-    width: 400px;
-    padding: 20px;
-    margin-bottom: 30px;
-    background-color: #f1f1f1;
-    box-shadow: 5px 5px 10px #888888;
-    margin-left: auto; /* agregar margen automático a la izquierda */
-    margin-right: auto; /* agregar margen automático a la derecha */
+
+.container{
+    padding-top: 80px;
 }
-.textazo{
-    padding-top: 100px;
+
+.section-title{
+    background-color: aqua;
 }
+
+.section-title h2{
+   text-align: center;
+}
+
+.section-title p{
+    text-align:justify;
+    
+ }
+
+ .text-center{
+    margin-top: 9px;
+ }
+
+ button{
+    padding: 10px 20px;
+    background-color: #147074;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2), 0 5px 0px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ button:hover {
+    background-color: #12258f;
+  }
+  
+ button:active {
+    background-color: #6bbdd1;
+  }
