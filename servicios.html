@@ -15,129 +15,88 @@
     <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
 	  <link href="css/animate.css" rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
+    <link href="estiloacerca.css" rel="stylesheet" />
 </head>
 
 <body>
-
-  <!-- Inicia el header-->
-  <header>
   <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#carouselExampleIndicators">Dr. <span class="text-primary"> Oswaldo Carmona </span></a>
+      <a class="navbar-brand" href="#">Dr. <span class="text-primary"> Oswaldo Carmona </span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#carouselExampleIndicators">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Acerca.html">Acerca de mí</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="servicios.html">Servicios</a>
+            <a class="nav-link" href="#">Servicios</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="btn btn-primary" href="formulario.html">Haz una cita</a>
+            <a class="btn btn-primary" href="#">Haz una cita</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  </header>
-    <div id="carouselExampleIndicators" class="carousel slide max-width: 300px;" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="Foto1.png" class="d-block w-100 img-fluid" style="max-height: 700px;" alt="...">
-          <div class="carousel-caption">
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="Foto2.png" class="d-block w-100 img-fluid" style="max-height: 700px;" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="perfildoc.png" class="d-block w-100 img-fluid" style="max-height: 700px;" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- Acaba el header-->
 
+  <section id="about" class="about">
+    <div class="container-fluid bg-light py-3 bg-body-secondary">
 
-    <!-- Acerca de mí -->
+      <div class="row">
+        <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+          <img id = "img1" src="" class="d-block w-100 img-fluid" style="max-height: 700px;" alt="...">
+        </div>
+
+        <div class="col-xl-7 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-12">
+          <h2 id="titulo" class="text-center">Acerca de mí</h2>
+          <p id = "yolo" class="text-center"></p>
+        </div>
+      </div>      
+  </section>
+
     <section id="about" class="about">
-      <div class="container-fluid bg-light py-5 bg-body-secondary">
-
-        <div class="row">
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
-            <img src="acerca.jpg" class="d-block w-100 img-fluid" style="max-height: 700px;" alt="...">
-          </div>
-
-          <div class="col-xl-7 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-12">
-            <h2 class="text-center">Acerca de mí</h2>
-            <p class="text-center">El Dr. Oswaldo Carmona, es Médico cirujano graduado en la UCV. Con Postgrado de cirugía general en el hospital Carlos J. Bello de la Cruz Roja Venezolana y Postgrado en la especialidad de UROLOGIA en la UCV.</p>
-            <a class="btn btn-primary btn-lg mt-5 mx-auto d-block" href="Acerca.html" style="max-width: 200px">Más información</a>
-          </div>
-        </div>
-        </section>
-        <!-- Acaba acerca de mí-->
-
-        <!--Servicios-->
-        <section id="services" class="services">
-          <div class="container mt-5 py-5">
-            <h2 class="text-center py-5">SERVICIOS</h2>
-            <div class="row ">
-              <div class="col">
-                <div class="card border-0">
-                  <img src="Foto1.png" class="card-img-top rounded-circle" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Urología</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card border-0">
-                  <img src="Foto1.png" class="card-img-top rounded-circle" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Urología</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card border-0">
-                  <img src="Foto1.png" class="card-img-top rounded-circle" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Urología</h5>
-                  </div>
-                </div>
-              </div>
+        <div class="container-fluid bg-light py-3 b">
+          <div class="row">
+            <div class="col-xl-7 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-12">
+              <h2 id="titulo" class="text-center"></h2>
+              <p id = "yolo" class="text-center"></p>
             </div>
-            <a class="btn btn-primary btn-lg mt-5 mx-auto d-block" href="servicios.html" style="max-width: 200px">Más información</a>
-        </div>
+            <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+              <img src="" class="d-block w-100 img-fluid" style="max-height: 700px;" alt="...">
+            </div>
+          </div>
         </section>
-        <!--Acaba servicios-->
 
+    <section id="about" class="about">
+            <div class="container-fluid bg-light py-3 bg-body-secondary">
+      
+              <div class="row">
+                <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+                  <img src="" class="d-block w-100 img-fluid" style="max-height: 700px;" alt="...">
+                </div>
+      
+                <div class="col-xl-7 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-12">
+                  <h2 id="titulo" class="text-center"> </h2>
+                  <p id = "yolo" class="text-center"></p>
+                </div>
+              </div>
+          </section>
+          <a class="btn btn-primary btn-lg mt-5 position-relative" href="formulario.html" style="max-width: 200px; left: 41%; top: -5%; margin-bottom: 30px;">Reserva tu Consulta Aqui</a>
+
+   
 
     <div id="preloader"></div>
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     
-    <!-- Inicia el Footer-->
-    <footer id="footer" class="footer fixed-bottom">
+    <footer id="footer" class="footer">
 
       <div class="footer-content position-relative">
         <div class="container">
@@ -159,7 +118,7 @@
                   <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
-            </div>
+            </div><!-- End footer info column-->
   
             <div class="col-lg-2 col-md-3 footer-links">
               <h4>Useful Links</h4>
@@ -170,7 +129,7 @@
                 <li><a href="#">Terms of service</a></li>
                 <li><a href="#">Privacy policy</a></li>
               </ul>
-            </div>
+            </div><!-- End footer links column-->
   
             <div class="col-lg-2 col-md-3 footer-links">
               <h4>Our Services</h4>
@@ -181,7 +140,7 @@
                 <li><a href="#">Marketing</a></li>
                 <li><a href="#">Graphic Design</a></li>
               </ul>
-            </div>
+            </div><!-- End footer links column-->
   
             <div class="col-lg-2 col-md-3 footer-links">
               <h4>Hic solutasetp</h4>
@@ -192,7 +151,7 @@
                 <li><a href="#">Dilecta</a></li>
                 <li><a href="#">Sit quas consectetur</a></li>
               </ul>
-            </div>
+            </div><!-- End footer links column-->
   
             <div class="col-lg-2 col-md-3 footer-links">
               <h4>Nobis illum</h4>
@@ -203,7 +162,7 @@
                 <li><a href="#">Trodelas</a></li>
                 <li><a href="#">Flexo</a></li>
               </ul>
-            </div>
+            </div><!-- End footer links column-->
   
           </div>
         </div>
@@ -221,7 +180,6 @@
         </div>
     
       </footer>
-      <!-- Se termina-->
 </body>
 <script src="function.js"></script>
 <script src="js/jquery.min.js"></script>	 
