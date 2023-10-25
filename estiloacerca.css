@@ -22,7 +22,7 @@ p#yolo{
 }
 
 h2{
-    font-size: 80px;
+    font-size: 60px;
 }
 
 @media (max-width: 767px) {
@@ -31,6 +31,12 @@ h2{
     }
 
     #titulo {
-        font-size: 28px;
+        font-size: 20px;
     }
+}
+
+img#imgA{
+    width: 500px;
+    height: 300px;
+    margin-top: 90px;
 }

@@ -13,6 +13,9 @@ form{
 
 .section-title{
     background-color: aqua;
+    padding: 15px;
+    border-radius: 30px;
+    border-style:double ;
 }
 
 .section-title h2{
@@ -45,3 +48,5 @@ form{
  button:active {
     background-color: #6bbdd1;
   }
+
+  
