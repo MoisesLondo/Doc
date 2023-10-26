@@ -60,12 +60,12 @@
       <form action="https://formsubmit.co/moiseslondo16@gmail.com" method="POST">
         <div class="row">
           <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Ingrese Nombre completo" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Ingrese Nombre completo" data-rule="minlen:4" data-msg="Please enter at least 4 chars" pattern="[a-zA-Z]+">
             <div class="validate"></div>
           </div>
 
           <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Ingrese un Correo" data-rule="email" data-msg="Please enter a valid email">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Ingrese un Correo" data-rule="email" data-msg="Please enter a valid email" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$">
             <div class="validate"></div>
           </div>
         </div>
