@@ -59,24 +59,39 @@
 
       <form>
         <div class="row">
-          <div class="col-md-4 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+
+          <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Ingrese Nombre completo" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
             <div class="validate"></div>
           </div>
-          <div class="col-md-4 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-            <div class="validate"></div>
-          </div>
-          <div class="col-md-4 form-group mt-3 mt-md-0">
-            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+
+          <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Ingrese un Correo" data-rule="email" data-msg="Please enter a valid email">
             <div class="validate"></div>
           </div>
         </div>
+
+        <div class="row">
+            <div class="col-md-4 form-group mt-3">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Ingrese su numero telefonico" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <input type="date" class="form-control" value="2023-10-26" min="2023-10-26" max="2030-12-31">
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <input  type="time" class="form-control" min="08:00" max="20:00" required>
+              <div class="validate"></div>
+            </div>
+        </div>
+
         <div class="row">
         <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+          <textarea class="form-control" name="message" rows="5" placeholder="Mensaje de que padece (Optional)"></textarea>
           <div class="validate"></div>
         </div>
+
         <div class="text-center"><button id="boton" type="submit">Agendar la Consulta</button></div>
       </form>
     </div>
