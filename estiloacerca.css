@@ -3,6 +3,18 @@ body{
 }
 img#img1 {
     margin-top: 5px;
+    border-radius: 30px;
+    height: 400px;
+}
+
+img#img2{
+    border-radius: 150px;
+    padding: 90px;
+    margin-top: -80px;
+}
+
+img#img3{
+    border-radius: 60px;
 }
 
 section#about1{
@@ -11,6 +23,7 @@ section#about1{
 
 section#about2{
     background-color: rgb(132, 201, 223);
+    margin-bottom: -80px;
 }
 
 p#yolo{
