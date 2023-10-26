@@ -1,13 +1,13 @@
-const form = document.querySelector("form");
-form.addEventListener("submit", (e) => {
+const boton = document.getElementById("boton"); //Selecciona el botón
+boton.addEventListener("click", (e) => { //Agrega un evento al botón al hacer click
   e.preventDefault();
 
   const name = document.querySelector("input[name=name]").value;
   const email = document.querySelector("input[name=email]").value;
   const phone = document.querySelector("input[name=phone]").value;
   const message = document.querySelector("textarea[name=message]").value;
-  const fecha = document.querySelector("input[type=date]").value;
-  const hora = document.querySelector("input[type=time]").value;
+  const fecha = document.querySelector("input[name=date]").value;
+  const hora = document.querySelector("input[name=time]").value;
 
   // Comprobar si el número de teléfono ya existe en el localStorage
   const savedPhone = localStorage.getItem("phone");
@@ -35,4 +35,4 @@ form.addEventListener("submit", (e) => {
 
   // Mostrar un mensaje de confirmación al usuario
   alert("Los datos del formulario se han guardado en el localStorage.");
-}); 
+});

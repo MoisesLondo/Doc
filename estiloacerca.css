@@ -8,9 +8,7 @@ img#img1 {
 }
 
 img#img2{
-    border-radius: 150px;
-    padding: 90px;
-    margin-top: -80px;
+    border-radius: 50px;
 }
 
 img#img3{
@@ -23,7 +21,6 @@ section#about1{
 
 section#about2{
     background-color: rgb(132, 201, 223);
-    margin-bottom: -80px;
 }
 
 p#yolo{
@@ -52,4 +49,5 @@ img#imgA{
     width: 500px;
     height: 300px;
     margin-top: 90px;
+    border-radius: 30px;
 }

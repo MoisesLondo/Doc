@@ -1,6 +1,10 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
 body{
   background: rgb(132, 201, 223);
   font-size: 20px;
+  font-family: 'Quicksand';
+  
 }
 .carousel-inner{
   margin-top: 80px;
@@ -8,17 +12,16 @@ body{
   padding-left: 30px;
   padding-right: 30px;
 }
-.footer {
-    background-color: black;
-    opacity: 0.8;
+.footer{
+    background-color: rgb(53, 53, 53);
     color: #fff;
     background-size: cover;
     font-size: 14px;
     font-family: Helvetica;
     padding: 80px 0 60px 0;
     position: relative;
+    align-items: center;
   }
-
   a {
     color: rgb(255, 255, 255);
   }
@@ -61,4 +64,20 @@ body{
   section#services{
     margin-top: -90px;
     margin-bottom: 3px;
+  }
+
+  img{
+    border-style: solid;
+    border-width: medium;
+  }
+
+  img#redes {
+    max-height: 70px;
+    border: #fff;
+    padding: 5px;
+  }
+
+  ul{
+    list-style-type:none;
+    padding: 5px;
   }

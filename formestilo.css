@@ -8,17 +8,13 @@ form{
     padding-top: 30px;
     padding-bottom: 50px;
 } 
-
-.container{
-    padding-top: 80px;
-}
-
 .section-title{
     max-height: 800px;
     background-color: rgb(253, 253, 253);
     padding: 15px;
     border-radius: 30px;
     border-style:hidden;
+    margin-top: 90px;
 }
  .text-center{
     margin-top: 9px;
