@@ -1,5 +1,7 @@
 body{
     background-color: rgb(219, 239, 245);
+    text-align: center;
+    align-items: center;
 }
 
 form{
@@ -12,20 +14,12 @@ form{
 }
 
 .section-title{
-    background-color: aqua;
+    max-height: 800px;
+    background-color: rgb(193, 255, 255);
     padding: 15px;
     border-radius: 30px;
     border-style:double ;
 }
-
-.section-title h2{
-   text-align: center;
-}
-
-.section-title p{
-    text-align:justify;
-    
- }
 
  .text-center{
     margin-top: 9px;
