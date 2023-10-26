@@ -23,3 +23,15 @@ const preloader = document.querySelector('#preloader');
     });
   }
 
+  const name = localStorage.getItem("name");
+  const email = localStorage.getItem("email");
+  const phone = localStorage.getItem("phone");
+  const message = localStorage.getItem("message");
+  const fecha = localStorage.getItem("fecha");
+  const hora = localStorage.getItem("hora");
+  document.querySelector("p.name").textContent = name;
+document.querySelector("p.email").textContent = email;
+document.querySelector("p.phone").textContent = phone;
+document.querySelector("p.message").textContent = message;
+document.querySelector("p.fecha").textContent = fecha;
+document.querySelector("p.hora").textContent = hora;
