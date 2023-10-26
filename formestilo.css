@@ -39,8 +39,8 @@ form{
   }
 
   table{
-    padding: 50px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     max-width: 300px;
+    margin-bottom: 30px;
   }
